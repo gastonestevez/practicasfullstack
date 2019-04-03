@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+
+}
+body{
+  background-image: url("../img/bg-2.png");
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.navMenu{
+  background-color: red;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+}
+.navSecciones{
+  float: left;
+
+}
+#logo{
+  display:block;
+  float: left;
+}
+.secciones,
+.navLogin{
+  padding: 10px 10px 10px 10px;
+  float: left;
+}
+
+.navLogin{
+  float: right;
+}
+.articulos{
+  width: 800px;
+  background-color: white;
+  float: left;
+  overflow: hidden;
+
+}
+.producto{
+  width: 380px;
+  /*margin: 10px 20px 10px 10px;*/
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.lateralDerecho{
+  width: 320px;
+  float:left;
+  background-color: white;
+  overflow: hidden;
+}
+
+section{
+  overflow: hidden;
+}
+.tutorial{
+  float:left;
+}
+img,p{
+  display: block;
+  float: left;
+}
+.botonProducto{
+  background-color: red;
+  color: white;
+  padding: 5px 5px 5px 5px;
+}
