@@ -125,14 +125,13 @@ img,p{
 .boxFormulario{
   width: 350px;
   margin: 0 auto;
-  background-color: white;
 }
 
 input,label{
   display: block;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 0px;
-  background-color: gray;
+  /*background-color: gray;*/
   width: 100%;
 }
 
@@ -145,6 +144,12 @@ input,label{
 .camposDerecha{
   float: right;
 }
-.checkboxRecordame{
-  display: block;
+
+.check,.checklbl{
+  float: left;
+  width: auto;
+}
+
+.tituloLogin{
+  text-align: center;
 }
