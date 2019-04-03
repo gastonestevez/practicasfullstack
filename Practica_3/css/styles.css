@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-img{
-
-}
 body{
   background-image: url("../img/bg-2.png");
 }
@@ -32,10 +30,12 @@ a{
   float: left;
 
 }
+
 #logo{
   display:block;
   float: left;
 }
+
 .secciones,
 .navLogin{
   padding: 10px 10px 10px 10px;
@@ -62,25 +62,62 @@ a{
   margin-bottom: 20px;
 }
 
-.lateralDerecho{
-  width: 320px;
-  float:left;
-  background-color: white;
-  overflow: hidden;
-}
 
 section{
   overflow: hidden;
+  margin-top: 10px;
 }
-.tutorial{
-  float:left;
-}
+
 img,p{
   display: block;
   float: left;
 }
+
+.lateralDerecho{
+  width: 320px;
+  float:left;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
 .botonProducto{
   background-color: red;
   color: white;
   padding: 5px 5px 5px 5px;
+  outline: none;
+  border:0 none;
+}
+
+.titulo{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 0px 15px 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+.tutoriales{
+  margin-bottom: 20px;
+  float: left;
+}
+
+.tutorial{
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  float: left;
+  background-color: white;
+  font-size: 14px;
+}
+
+.publicidades{
+  float: left;
+}
+
+.publicidad{
+  float: left;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: 1px;
 }
